@@ -1,0 +1,1 @@
+Add-ADGroupMember -Identity 'CopyTo' -Members (Get-ADGroupMember -Identity 'CopyFrom' -Recursive)
